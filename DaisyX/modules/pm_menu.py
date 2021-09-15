@@ -45,16 +45,16 @@ def help_markup(modules):
 
 
 STICKERS = (
-    "CAACAgUAAxkBAAJAeWFBb8AiXQsa2R88tk8CT1K0ZyjmAAJ0AgACnhjgVOzmBQRriG5rHgQ",
-    "CAACAgUAAxkBAAJAd2FBb7hLoUAAAVOHnkyVl234Yx55PgAC0QIAAv8G4VQ_k3dbBgherx4E",
-    "CAACAgUAAxkBAAJAdWFBb7JBsChFBNxvb3Rw2fRVBoLFAAKHAwACacPpVPtdRtMZDTp-HgQ",
-    "CAACAgUAAxkBAAJAc2FBb5y0m09qGKCOof25VPQdntF2AAKKAwACCDjgVLzQJqmOnzCuHgQ",
-    "CAACAgUAAxkBAAJAcWFBb5Vp82JAQa5Yu9b78XXPsx18AAK4AwACmNLpVNfMBkpJksFsHgQ",
-    "CAACAgUAAxkBAAJAb2FBb48DPvathhvsqYQtqEFokjjrAAJcAgACPrrpVIA9qkFNhZhSHgQ",
-    "CAACAgUAAxkBAAJAe2FBcGzrSvlRAWGeSiK7DqH6vzstAAIFBAACD1vgVCboWTERJV0HHgQ",
-    "CAACAgUAAxkBAAJAfWFBcIgW5rny6knqEm3eBCkJaBVjAAKnBAACRwXpVD6sVki18QlzHgQ",
-    "CAACAgUAAxkBAAJAf2FBcJixTKHugcRQXTNXaumzZBTmAAKFAwACOlDgVH_WcZIhiTJ9HgQ",
-    "CAACAgUAAxkBAAJAg2FBcK4qsmCs4p9tOQbCSwIPd2KNAAK4AwAC8MDhVG9qf4lutlceHgQ",
+    "CAACAgUAAxkBAAJAm2FBd8ZpfFRtaSN2NcGuvQdgb6EkAAKRAgACII4QVjpocV0dOIc0HgQ",
+    "CAACAgUAAxkBAAJAn2FBd8mtu21pthrAfg76Ei9gF8oTAALdAwACV8EIVmqppXlDP7rbHgQ",
+    "CAACAgUAAxkBAAJAoWFBd8uNeCfgwmY1LiDZxDeS5dteAAKmBAACP7kRVgEVMswNCs7eHgQ",
+    "CAACAgUAAxkBAAJAo2FBd8yIS9EN3JFS960oy9j1s6g5AALjAwACNQoIVrvdoK8KzvArHgQ",
+    "CAACAgUAAxkBAAJApWFBd82FFUYGZtqaqH8xdsr26_NbAAKPAwACFBEIVmXUwM3canmNHgQ",
+    "CAACAgUAAxkBAAJAp2FBd842tiyrcg7hS0zHyhqlbCkxAAIyAwAClYoJVo8lFYmdKSoRHgQ",
+    "CAACAgUAAxkBAAJArWFBea50ylkCVgOZeeImJUQqqnYmAAIuBAACxGoJVk4G1Yea2Lf0HgQ",
+    "CAACAgUAAxkBAAJAr2FBea6bNp-_vydunbHO7ntBllDcAAJNBAAC1-kRVhijlKeDP6i9HgQ",
+    "CAACAgUAAxkBAAJAsWFBea_PJamDiwYbW65dtA5Snku0AALkAwACWX8IVhArbCjV1Rr-HgQ",
+    "CAACAgUAAxkBAAJAs2FBebAo6YcOS4LBy4Q5Lpbc3xYKAALwBAACnNURVl4FJvVTvHfqHgQ",
 )
 
 
@@ -85,9 +85,9 @@ async def get_start_func(message, strings, edit=False):
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/IET_Updates"),
+        InlineKeyboardButton("♻️ Updates", url="https://t.me/IET_Updates"),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/IET_Support"
+           "🛠️ Support", url="https://t.me/IET_Support"
         ),
     )
     buttons.add(
